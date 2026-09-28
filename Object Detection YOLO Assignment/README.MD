@@ -26,7 +26,7 @@ The 50-epoch model performs better, especially in recall. Training for 100 epoch
 # Visualization
 
 ![Confussion_metrics](images/Ep50.png)
-![Result](images/Ep50.png)
+![Result](images/E50.png)
 
 # Final Model
 
