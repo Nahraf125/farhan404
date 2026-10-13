@@ -1,6 +1,6 @@
 streamlit
 ultralytics
-opencv-python
-imageio_ffmpeg
+opencv-python-headless
 pillow
 numpy
+imageio-ffmpeg
