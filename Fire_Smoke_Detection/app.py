@@ -25,7 +25,8 @@ st.write("A YOLOv8-powered web application to detect fire and smoke in images an
 @st.cache_resource
 def load_model():
     # Adjust your absolute path here if needed
-    model_path = 'best.pt'
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    model_path = os.path.join(current_dir, 'best.pt')
     model = YOLO(model_path)
     return model
 
